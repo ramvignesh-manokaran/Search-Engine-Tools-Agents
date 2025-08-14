@@ -1,6 +1,10 @@
 # Search Engine with tools and Agents
 
-In this example, we're using `StreamlitCallbackHandler` to display the thoughts and actions of an agent in an interactive Streamlit app.
+- Tools like Arxiv, Wikipedia and DuckDuckGoSearchRun are used. 
+- Have also tried custom Retriever to retrieve info from Langsmith website.
+- LLM interacts with these tools to answer user query.
+- Agents are used to interact with above tools.
+- we have used `StreamlitCallbackHandler` to display the thoughts and actions of an agent in an interactive Streamlit app.
 
 ## Setting Up environment
 
